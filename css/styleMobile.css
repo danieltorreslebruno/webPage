@@ -1,0 +1,42 @@
+@media only screen and (max-width: 768px) {
+    /*For mobile phones*/
+    
+    #borderNameOfAuthor {
+        width: 50%;
+        font-size: 50%;
+    }
+
+    #menu li a{
+        font-size: 70%;
+        margin: 3px;
+    }
+
+    .carousel-inner > .item > img,
+    .carousel-inner > .item > a > img {
+
+        height: 50%;
+        margin: auto;
+    }
+
+    .carousel-control{
+        height: 50%;
+    }
+
+    .carousel-caption{
+        height: 50%;
+        bottom: 100px;
+        font-size: 
+    }
+
+    .carousel-caption h3,
+    .carousel-caption p{
+
+        font-size: 90%;
+    }
+
+    .carousel-indicators{
+        bottom: 250px;
+    }
+
+
+}

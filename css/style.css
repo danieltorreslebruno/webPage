@@ -76,10 +76,12 @@ ul{
 }
 
 #menu li a{
+	/*Distance between buttons*/
 	margin: 55px;
 	font-family: 'Trebuchet MS';
-	/*font-size: 100%;*/
+	/*font-family: "klavikalight",Helvetica,Arial,sans-serif;*/
 	padding: 10px;
+	text-decoration:none;   
 }
 
 
@@ -133,3 +135,4 @@ ul{
 	/*Here we are putting the indicators below images*/
 	bottom: -50px;
 }
+
