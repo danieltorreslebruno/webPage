@@ -1,0 +1,95 @@
+body{
+	background-image: url("../images/apple-desk-laptop-macbook.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-color: white;
+}
+
+
+/*Here we modify headers elements*/
+#headerDiv{
+	position: relative;
+	margin: 0 auto 0 auto;
+	height: 70px;
+	width: 95%;
+	font-family: 'Trebuchet MS';
+	font-size:120%;
+	background: url("../images/html5.png") no-repeat 0px 0px;
+	background-size: 70px 70px;
+	background-color: #C0C0C0;
+	border-radius: 5px;
+}
+
+#nameOfAuthor{
+	position: relative;
+	font-size:100%;
+	font-weight: bold;
+}
+
+p{
+	text-align: right;
+	margin-right: 30px;
+	font-family: 'Trebuchet MS';
+	margin-top: 10px;
+}
+
+#borderNameOfAuthor{
+	float: right;
+	height: 50px;
+	width: 500px;
+	margin-top: 10px;
+	margin-right: 10px;
+	background-color: #808080;
+	border-radius: 5px;
+}
+
+
+/*Here we modify nav elements*/
+nav{
+	margin: 0 auto;
+	text-align: left;
+	width: 75%;
+	border-top: 50px solid #808080; 
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+}
+
+ul{
+	float: left;
+	list-style-type: none;
+	padding: 0px;
+	position: relative;
+	left: 50%;
+	margin-top: -40px;
+}
+
+#menu li{
+	float: left;
+	position: relative;
+	right: 50%;
+}
+
+#menu li a{
+	/*Distance between buttons*/
+	margin: 55px;
+	font-family: 'Trebuchet MS';
+	font-size: 100%;
+	/*font-family: "klavikalight",Helvetica,Arial,sans-serif;*/
+	padding: 10px;
+	text-decoration:none;   
+}
+
+.button{
+	margin-top: 15px;
+	/*background: #808080;*/
+	color: #f2f2f2;
+	font-size: 18px;
+	text-decoration: none;
+	text-align: center;
+}
+
+.button:hover{
+	color: black;
+}
