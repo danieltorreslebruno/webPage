@@ -1,9 +1,19 @@
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 700px) {
     /*For mobile phones*/
     
     #borderNameOfAuthor {
         width: 50%;
         font-size: 50%;
+    }
+    
+    nav{
+        border-top: 30px solid #808080; 
+        border-left: 30px solid transparent;
+        border-right: 30px solid transparent;
+    }
+
+    ul{
+        margin-top: -25px;
     }
 
     #menu li a{
@@ -37,6 +47,6 @@
     .carousel-indicators{
         bottom: 250px;
     }
-
+    
 
 }

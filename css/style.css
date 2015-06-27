@@ -1,5 +1,5 @@
 body{
-	background-image: url("../images/background1.jpeg");
+	background-image: url("../images/39H.jpg");
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -15,7 +15,7 @@ body{
 	height: 70px;
 	width: 95%;
 	font-family: 'Trebuchet MS';
-	font-size:160%;
+	font-size:120%;
 	background: url("../images/html5.png") no-repeat 0px 0px;
 	background-size: 70px 70px;
 	background-color: #C0C0C0;
@@ -48,16 +48,12 @@ p{
 
 /*Here we modify nav elements*/
 nav{
-	position: relative;
-	height: 55px;
 	margin: 0 auto;
-	overflow: hidden;
 	text-align: left;
 	width: 85%;
-	background-color: white;
-	opacity: 0.5;
-	padding: 5;
-	border-radius: 0px 0px 15px 15px;
+	border-top: 50px solid #808080; 
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
 }
 
 ul{
@@ -66,7 +62,7 @@ ul{
 	padding: 0px;
 	position: relative;
 	left: 50%;
-	margin-top: 15px;
+	margin-top: -40px;
 }
 
 #menu li{
@@ -77,30 +73,26 @@ ul{
 
 #menu li a{
 	/*Distance between buttons*/
-	margin: 55px;
+	margin: 20px;
 	font-family: 'Trebuchet MS';
+	font-size: 100%;
 	/*font-family: "klavikalight",Helvetica,Arial,sans-serif;*/
 	padding: 10px;
 	text-decoration:none;   
 }
 
-
 .button{
 	margin-top: 15px;
-	background: #808080;
+	/*background: #808080;*/
 	color: #f2f2f2;
 	font-size: 18px;
-	border-radius: 5px;
 	text-decoration: none;
 	text-align: center;
-	border: none;
-}
-.button:hover{
-	background: rgba(0,0,0,0);
-	color: #808080;
-	box-shadow: inset 0 0 0 3px #808080;
 }
 
+.button:hover{
+	color: black;
+}
 
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
@@ -130,9 +122,12 @@ ul{
 	/*Height of item, that contains the images*/
 	height: 600px;
 }
-
+.itemImages{
+	border: solid #808080 4px;
+}
 .carousel-indicators {
 	/*Here we are putting the indicators below images*/
 	bottom: -50px;
 }
+
 
